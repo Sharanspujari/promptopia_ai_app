@@ -1,5 +1,5 @@
 // This is the home page of the application
-
+import Feed from "@components/Feed";
 const Home = () => {
   return (
     //  using sematic element for better performance
@@ -14,6 +14,8 @@ const Home = () => {
         Promptopia is an open-Source AI prompting tool for modern world to
         discover , create and share creative prompts
       </p>
+      {/* feed will start from here */}
+      <Feed/>
     </section>
   );
 };
